@@ -2,40 +2,70 @@
 
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![status: public prototype](https://img.shields.io/badge/status-public%20prototype-blue.svg)](README.md)
-[![Level 1: ready](https://img.shields.io/badge/Level%201-ready-brightgreen.svg)](docs/quick-use.md)
-[![automation: none](https://img.shields.io/badge/automation-none-lightgrey.svg)](#limits-and-non-goals)
-[![human judgment: required](https://img.shields.io/badge/human%20judgment-required-orange.svg)](#what-makes-an-ai-completion-trustworthy)
-[![formal evidence: bounded](https://img.shields.io/badge/formal%20evidence-bounded-yellow.svg)](#formal-run-fr-v021-01)
+[![5-minute quickstart](https://img.shields.io/badge/quickstart-5%20minutes-brightgreen.svg)](docs/quick-use.md#copy-paste-template)
 
 Output Surface Integrity is a restart-oriented compression method for long-running human–AI work. It reduces the amount of prior material a receiving person or AI must reread by preserving only the operational state required to continue.
 
-## Internal Fixed-Case Result
+## See the Restart Difference
 
-- Full input: `14,651` characters
-- Compact output: `3,267` characters
-- Character reduction: `77.70%`
-- Registered items preserved in scoring: `192 / 192`
-- Evaluation scope: eight fixed internal cases
+```text
+Long project history
+14,651 characters across eight fixed internal cases
+        ↓ OSI
+Compact restart surface
+3,267 characters
+        ↓
+77.70% fewer characters
+192 / 192 registered restart items retained in scoring
+```
+
+The compact restart surface preserves the answers needed for bounded continuation:
+
+- What changed?
+- What remains unresolved?
+- Where should work restart?
+- Who owns the next action?
+
+A new human or AI can continue from the bounded operational state instead of reconstructing the entire project history.
+
+## One Output Before and After OSI
+
+**Illustrative Level 1 example — not part of the measured eight-case result.**
+
+**Before**
+
+> Done. The repository was updated and tests passed.
+
+This does not reveal the changed surface, evidence, unresolved state, restart point, or next owner.
+
+**After**
+
+- Output reference: `PATCH-001`
+- Changed surface: `src/parser.ts`; `tests/parser.test.ts`
+- Validation receipt: `RECEIPT-001` — `PASS`
+- Missing closure: `NONE` within the named Level 1 boundary
+- Restart point: state immediately before `PATCH-001`
+- Next action: accept the bounded parser maintenance change
+- Next owner: receiving maintainer
+- Gate: `PASS`
+
+**[Try the five-minute OSI template →](docs/quick-use.md#copy-paste-template)**
+
+No installation, blind evaluation, Gold, Mapping, or multi-agent setup is required for the Level 1 workflow.
+
+## Measurement Boundary
 
 This result is limited to the fixed internal eight-case evaluation. It does not establish a general token-reduction rate, general time savings, equivalent effects in external environments, market demand, or superiority over other context-transfer methods.
 
 ## From Less Rereading to Controlled Continuation
 
-OSI's public explanation follows this order:
+OSI's supporting layers follow this order:
 
-1. reduce rereading and re-explanation;
-2. retain the operational state required for restart;
-3. preserve reconnectability through **V11**, so retained state remains connected to its origin, As-of condition, stop condition, and rollback or re-entry path;
-4. prevent false completion and responsibility loss through **V12**, which preserves evidence, authority, ownership, unresolved state, and bounded acceptance; and
-5. govern the next loop through **V13**, which fixes the next safe action, next owner, and conditions for re-entry.
+1. **V11 — Reconnectability:** retain the operational state required for restart and connect it to its origin, As-of condition, stop condition, and rollback or re-entry path.
+2. **V12 — Completion Integrity:** prevent false completion and responsibility loss by preserving evidence, authority, ownership, unresolved state, and bounded acceptance.
+3. **V13 — Next-Loop Governance:** fix the next safe action, next owner, and conditions for re-entry.
 
-V11, V12, and V13 support the restart-oriented compression method. They are not the opening claim, and none makes continuation automatic or proves general efficiency.
-
-## Start With One AI Output
-
-**[Start with one AI output — no Formal Run required.](docs/quick-use.md)**
-
-Ordinary use needs no blind evaluation, Gold, Mapping, multiple executors, or 18-item Formal Run. The [five-minute example](docs/quick-use.md#completed-example) and [copy-paste template](docs/quick-use.md#copy-paste-template) are ready to use.
+V11, V12, and V13 support the restart-oriented compression method. They do not make restart automatic or establish universal reliability.
 
 ## Why This Matters
 
@@ -400,6 +430,10 @@ This does not prove OSI's empirical performance. It directly demonstrates the pr
 This clean public release surface is available under the [MIT License](LICENSE).
 
 ## Limits and Non-Goals
+
+[![automation: none](https://img.shields.io/badge/automation-none-lightgrey.svg)](#limits-and-non-goals)
+[![human judgment: required](https://img.shields.io/badge/human%20judgment-required-orange.svg)](#what-makes-an-ai-completion-trustworthy)
+[![formal evidence: bounded](https://img.shields.io/badge/formal%20evidence-bounded-yellow.svg)](#formal-run-fr-v021-01)
 
 - OSI does not guarantee truth, universal correctness, or safe deployment.
 - OSI does not replace tests, CI, formal verification, review, or human judgment.
