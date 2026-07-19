@@ -7,7 +7,39 @@
 [![human judgment: required](https://img.shields.io/badge/human%20judgment-required-orange.svg)](#what-makes-an-ai-completion-trustworthy)
 [![formal evidence: bounded](https://img.shields.io/badge/formal%20evidence-bounded-yellow.svg)](#formal-run-fr-v021-01)
 
-**Has this happened in an AI workflow?**
+Output Surface Integrity is a restart-oriented compression method for long-running human–AI work. It reduces the amount of prior material a receiving person or AI must reread by preserving only the operational state required to continue.
+
+## Internal Fixed-Case Result
+
+- Full input: `14,651` characters
+- Compact output: `3,267` characters
+- Character reduction: `77.70%`
+- Registered items preserved in scoring: `192 / 192`
+- Evaluation scope: eight fixed internal cases
+
+This result is limited to the fixed internal eight-case evaluation. It does not establish a general token-reduction rate, general time savings, equivalent effects in external environments, market demand, or superiority over other context-transfer methods.
+
+## From Less Rereading to Controlled Continuation
+
+OSI's public explanation follows this order:
+
+1. reduce rereading and re-explanation;
+2. retain the operational state required for restart;
+3. preserve reconnectability through **V11**, so retained state remains connected to its origin, As-of condition, stop condition, and rollback or re-entry path;
+4. prevent false completion and responsibility loss through **V12**, which preserves evidence, authority, ownership, unresolved state, and bounded acceptance; and
+5. govern the next loop through **V13**, which fixes the next safe action, next owner, and conditions for re-entry.
+
+V11, V12, and V13 support the restart-oriented compression method. They are not the opening claim, and none makes continuation automatic or proves general efficiency.
+
+## Start With One AI Output
+
+**[Start with one AI output — no Formal Run required.](docs/quick-use.md)**
+
+Ordinary use needs no blind evaluation, Gold, Mapping, multiple executors, or 18-item Formal Run. The [five-minute example](docs/quick-use.md#completed-example) and [copy-paste template](docs/quick-use.md#copy-paste-template) are ready to use.
+
+## Why This Matters
+
+Long-running human–AI work often creates the same restart costs repeatedly:
 
 - A new AI needs the same project explanation again.
 - The agent says “done,” but you still have to verify and clean up.
@@ -24,17 +56,11 @@ That is **False Completion**: the work looks finished locally while missing evid
 
 ## What OSI Does
 
-**OSI records the evidence, unresolved state, authority, rollback or restart point, and next owner before an AI output is accepted as complete.**
+OSI compacts the continuation surface: the bounded outcome, evidence required for the next judgment, unresolved state, authority, rollback or restart point, and next owner.
 
-It is not designed to make every isolated turn shorter. It is designed to prevent the same explanation, verification, evidence search, correction, and recovery work from being paid for repeatedly across turns, sessions, models, agents, and handoffs.
+It is designed to reduce repeated explanation and recovery without discarding the state needed to restart safely. It is not designed to make every isolated turn shorter, and the fixed internal result above is not a universal performance estimate.
 
 When the required state is preserved, OSI prevents repeated reconstruction by shifting work from repeated recovery to bounded one-time recording. This is an operating mechanism, not an experimentally measured saving.
-
-## Start With One AI Output
-
-**[Start with one AI output — no Formal Run required.](docs/quick-use.md)**
-
-Ordinary use needs no blind evaluation, Gold, Mapping, multiple executors, or 18-item Formal Run. The [five-minute example](docs/quick-use.md#completed-example) and [copy-paste template](docs/quick-use.md#copy-paste-template) are ready to use.
 
 ## Cost Now / Cost Later
 
