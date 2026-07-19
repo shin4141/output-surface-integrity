@@ -96,11 +96,11 @@ Use only one Gate. Qualify the Gate in `Missing closure` when its scope is narro
 
 ## Completed Example
 
-### Source output
+### Part A — Initial claim
 
 > Done. The repository was updated and tests passed.
 
-### OSI record
+### Initial assessment — DELAY
 
 ```markdown
 # OSI One-Output Check
@@ -131,6 +131,65 @@ Use only one Gate. Qualify the Gate in `Missing closure` when its scope is narro
 ```
 
 The record does not claim that the change failed. It preserves `DELAY` until the missing closure is resolved.
+
+### Part C — Evidence arrives
+
+**Illustrative continuation — not a claim about this repository’s own execution.**
+
+`PATCH-001` and `RECEIPT-001` are bounded illustrative record identifiers, not commands or artifacts supplied by this repository.
+
+- Stable output or patch reference: `PATCH-001`
+- Exact changed surfaces: `src/parser.ts` and `tests/parser.test.ts`
+- Validation receipt identity: `RECEIPT-001`
+- Validation result: `PASS` — the registered test set completed with no failures
+- Acceptance procedure: confirm the fixed patch scope, inspect the validation receipt, verify the change stayed within authority, and preserve a rollback point
+- Witness requirement: `NOT REQUIRED` under the stated Level 1 policy because this bounded, reversible maintenance change does not require independent fixation
+- Rollback / restart point: restore the state immediately before `PATCH-001`, then reopen the parser task with the failed acceptance condition recorded
+- Unresolved assumptions: none within the named Level 1 acceptance boundary
+- Next action: accept `PATCH-001` for the bounded maintenance task
+- Next owner: receiving maintainer
+
+### Reassessment — PASS
+
+```markdown
+# OSI One-Output Check — Reassessment
+
+- Output reference: PATCH-001
+- Claimed outcome: The bounded parser update is present and its registered tests passed
+- Changed surface: src/parser.ts; tests/parser.test.ts
+- Semantic outcome: SUPPORTED WITHIN THE BOUNDED CLAIM
+- Receipt integrity: EVIDENCED — RECEIPT-001
+- Procedure integrity: FOLLOWED
+- Witness state: NOT REQUIRED — Level 1 policy does not require independent fixation for this bounded, reversible maintenance acceptance
+- Gate: PASS
+- Missing closure: NONE
+- Rollback or restart point: Restore the state immediately before PATCH-001 and reopen the parser task with the failed acceptance condition recorded
+- Next safe action: Accept PATCH-001 for the bounded maintenance task
+- Next owner: Receiving maintainer
+- Completion line: REACHED — the named Level 1 acceptance boundary is closed
+
+## Evidence and receipts
+
+- PATCH-001 fixes the changed surface and scope
+- RECEIPT-001 fixes the validation identity and PASS result
+
+## Unresolved assumptions
+
+- NONE within the named Level 1 acceptance boundary
+```
+
+`PASS` does not prove universal correctness. It means the named evidence supports this bounded acceptance.
+
+### When reassessment must BLOCK
+
+Use `BLOCK` when:
+
+- the receipt contradicts the original claim;
+- the changes exceeded authority;
+- required evidence cannot be safely reconstructed; or
+- the procedure was invalidated.
+
+Do not turn contradictory evidence into `DELAY` merely to keep `PASS` reachable.
 
 ## Copy-Paste Prompt for an AI Assistant
 

@@ -1,5 +1,50 @@
 # Claim Boundary
 
+## Current As-of Evidence State — 2026-07-19
+
+### Historical native-domain pressure evidence
+
+- RTK Execution Stage 2 preserved the correct registered bounded state in `8 / 8` cases.
+- Historical OSI Responsibility Stage 2 preserved the correct registered bounded state in `1 / 8` cases.
+- The OSI lane recorded `14` critical failure events across `7` cases.
+
+This remains valid historical evidence. The lanes used different native artifacts and rubrics, so the result is not a universal winner score and does not prove RTK superiority or OSI inferiority.
+
+### Forward-only architecture correction
+
+The missing architectural joint was identified as **V11 Reconnectability**. Compound Gate v0.2 combined:
+
+- Gate A: V11 Reconnectability Gate; and
+- Gate B: V12 Responsibility Surface Gate.
+
+For `attempt_02`, authoritative commit `f2646ef116af9a2c3cfaa277f4ed197e407f12ec` recorded the validator-side result `7 PASS / 1 DELAY / 0 BLOCK`.
+
+R07 remained `DELAY`: the rollback / re-entry trigger and re-evaluation conditions were absent, and they were not retrospectively invented.
+
+### Evaluation boundary
+
+- Blind Evaluation of the later result: `NOT RUN`
+- Primary rubric scoring: `NOT RUN`
+- Complete `8 / 8` recovery: `NOT PROVEN`
+- Comparative effect size: `NOT ESTABLISHED`
+- Main empirical Claim confirmation: `NOT ESTABLISHED`
+- RTK superiority or inferiority: `NOT ESTABLISHED`
+
+No percentage improvement from `1 / 8` to `7 / 8` is established or authorized as a general effect size.
+
+### Public-status boundary
+
+- Clean public repository: `RELEASED`
+- Public repository: `shin4141/output-surface-integrity`
+- Public visibility: `PUBLIC`
+- Private source and evidence archive: `PRIVATE`
+- First external post: `NOT YET ISSUED`
+- GitHub Release / tag: `NOT CREATED / NOT CREATED`
+
+The public repository is a clean allowlisted projection. The private source and evidence archive remains private and is not publication-authorized by the public projection.
+
+Publication status alone does not prove adoption, demand, external validation, market fit, productivity gain, real-world robustness, or scientific Claim confirmation.
+
 ## Verified Bootstrap Claims
 
 The workspace may state only that:
@@ -39,7 +84,6 @@ The manifest does not record completed cold-start reconstruction or scoring. The
 - a direct identical-workload benchmark against RTK;
 - RTK superiority or inferiority;
 - general performance across every Completion Report;
-- public-release or publication readiness;
 - product, customer, adoption, demand, or market validation;
 - broad real-world robustness based on the synthetic adversarial corpus;
 - external reproducibility beyond the recorded internal evidence.
@@ -58,8 +102,12 @@ The manifest does not record completed cold-start reconstruction or scoring. The
 
 The claimed use of fresh-context AI sessions, separate scoring sessions, fresh Codex chats, Claude Sonnet 5, and Shin's experiment-design role is `PENDING HANDOFF ASSERTION — NOT CANONICALLY VERIFIED` until an authoritative method artifact is available.
 
-Do not describe the current record as independent third-party human validation, an identical-workload RTK benchmark, general proof, market validation, or publication authorization.
+Do not describe the current record as independent third-party human validation, an identical-workload RTK benchmark, general proof, market validation, or authorization to publish the private evidence archive.
 
 ## Change Boundary
 
-The source artifact workspace and V13 operational repository remain read-only. Recalculation, rescoring, Answer Key reinterpretation, report-body drafting, publication, implementation, automation, product work, market claims, and external outreach are outside this intake.
+- Past evidence is immutable.
+- Corrections are Forward-only.
+- No rescoring or semantic reconstruction is authorized.
+- Public documentation may be synchronized with later verified evidence.
+- External claims must remain within the current As-of boundary.

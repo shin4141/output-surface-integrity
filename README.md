@@ -230,6 +230,14 @@ Level 4 has materially higher setup and custody cost. Reveal artifacts, manifest
 
 ## RTK and OSI: Use the Level the Work Requires
 
+> **Research evidence boundary**
+>
+> Any executable RTK artifact under `evidence/` is preserved only as a fixed research artifact from the registered comparison. It is not an OSI adoption tool, bundled dependency, installer, or endorsed replacement for the authoritative RTK project.
+>
+> For RTK itself, use the upstream RTK repository linked below.
+
+The clean public projection contains no executable RTK artifact. See the [evidence boundary](evidence/README.md) for the fixed artifact identity retained in the private research archive.
+
 [RTK (Rust Token Killer)](https://github.com/rtk-ai/rtk) is a CLI proxy designed to reduce the command output entering an LLM context. Filtering, grouping, truncation, and deduplication make immediate execution output lighter. That is a useful and distinct job.
 
 OSI preserves responsibility-bearing completion state. It becomes rational when external or persistent state, evidence, authority, ownership, publication, long duration, or multi-agent continuation can make recovery costs compound.
