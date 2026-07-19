@@ -20,3 +20,17 @@
 - Protected objects: restart-oriented compression as the primary public center; `14,651 → 3,267` characters; `77.70%`; `192 / 192`; eight fixed internal cases; measured-internal versus external-generalization boundary; V11/V12/V13 support order; FR-v0.2.1-01 terminal closure; clean Forward-only history; Shin's Decision Owner Seat.
 - Rollback point: `d50edfcbc8ee2fa34f8a83aa9c2b30950820d4e5`
 - Unmodified surfaces: Social Preview, topics, external posts, Formal Run, and private evidence were not modified. GitHub About, tags, releases, repository visibility, and security settings were also not modified.
+
+## As-of 2026-07-19 — PUBLIC-DISCOVERY-SOCIAL-PREVIEW-01
+
+- Base HEAD: `bd7f85866d5802bffcc6e0c7f1d337d4393f8d97`
+- Responsibility: `PUBLIC-DISCOVERY-SOCIAL-PREVIEW-01`
+- Branch: `improve/osi-social-preview`
+- Created files: `assets/social-preview/osi-social-preview.svg`, `assets/social-preview/osi-social-preview.png`
+- Image dimensions: `1280 × 640`
+- PNG byte size: `115872`
+- PNG SHA-256: `3054f6e6937170b8c83b1bdef150594bd57019268723b84886690b0ed930807d`
+- Objective: add a deterministic Social Preview that communicates OSI's bounded restart-oriented compression result before a visitor opens the README.
+- Protected objects: restart-oriented compression as the primary public center; `14,651 → 3,267`; `77.70%`; `192 / 192` registered restart items retained in scoring; the fixed internal eight-case scope; the measured-internal versus external-generalization boundary; current README and About wording; clean Forward-only Git history; FR-v0.2.1-01 terminal closure; Shin's Decision Owner Seat.
+- Rollback point: `bd7f85866d5802bffcc6e0c7f1d337d4393f8d97`
+- Unmodified surfaces: README, About, topics, external posts, tags/releases, private evidence, and Formal Run were not modified.

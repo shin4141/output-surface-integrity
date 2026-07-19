@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title description">
+  <title id="title">Output Surface Integrity social preview</title>
+  <desc id="description">Restart long-running human–AI work with less rereading, showing a fixed internal reduction from 14,651 to 3,267 characters while retaining 192 of 192 registered restart items in scoring.</desc>
+  <rect width="1280" height="640" fill="#0B1220"/>
+
+  <g font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif">
+    <text x="72" y="95" fill="#7DD3FC" font-size="24" font-weight="600" letter-spacing="1.7">OUTPUT SURFACE INTEGRITY</text>
+
+    <rect x="908" y="64" width="300" height="44" rx="22" fill="#111C2E" stroke="#26354D" stroke-width="2"/>
+    <text x="1058" y="93" fill="#F8FAFC" font-size="20" font-weight="600" letter-spacing="0.8" text-anchor="middle">5-MINUTE QUICKSTART</text>
+
+    <text x="72" y="166" fill="#F8FAFC" font-size="48" font-weight="700">Restart long-running human–AI work</text>
+    <text x="72" y="220" fill="#F8FAFC" font-size="48" font-weight="700">with less rereading.</text>
+
+    <rect x="72" y="260" width="448" height="180" rx="18" fill="#111C2E" stroke="#26354D" stroke-width="2"/>
+    <text x="96" y="300" fill="#A8B3C7" font-size="20" font-weight="600" letter-spacing="1.1">LONG PROJECT HISTORY</text>
+    <text x="96" y="382" fill="#F8FAFC" font-size="76" font-weight="700">14,651</text>
+    <text x="96" y="418" fill="#A8B3C7" font-size="24">characters</text>
+
+    <text x="640" y="374" fill="#7DD3FC" font-size="70" font-weight="700" text-anchor="middle">→</text>
+
+    <rect x="760" y="260" width="448" height="180" rx="18" fill="#111C2E" stroke="#26354D" stroke-width="2"/>
+    <text x="784" y="300" fill="#A8B3C7" font-size="20" font-weight="600" letter-spacing="1.1">COMPACT RESTART SURFACE</text>
+    <text x="784" y="382" fill="#F8FAFC" font-size="76" font-weight="700">3,267</text>
+    <text x="784" y="418" fill="#A8B3C7" font-size="24">characters</text>
+
+    <text x="640" y="486" fill="#4ADE80" font-size="30" font-weight="700" text-anchor="middle">77.70% fewer characters</text>
+    <text x="640" y="534" fill="#F8FAFC" font-size="20" font-weight="600" text-anchor="middle">Fixed internal 8-case result · 192 / 192 registered restart items retained in scoring</text>
+    <text x="640" y="574" fill="#A8B3C7" font-size="18" text-anchor="middle">Not a general token or time claim.</text>
+  </g>
+</svg>
