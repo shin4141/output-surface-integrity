@@ -1,0 +1,109 @@
+{
+  "schema_version": "osi-rtk-native-domain-measured-score-facts/v0.1",
+  "status": "FROZEN_EXACT_TRANSCRIPTION_NOT_RESCORED",
+  "canonical_scoring_sha256sums_sha256": "1c5556d4a0107d4ff79cf61d2ff9356693189d984eb3a7d0dfb2fc7fc49aa8fc",
+  "execution_surface": {
+    "bound_identity": "RTK v0.43.0 documented static rtk log [FILE] route",
+    "record_count": 8,
+    "stage_1": {
+      "critical_signal_retention": {"distribution_score_2_1_0": [0, 0, 8], "score": "0/16"},
+      "error_failure_localization": {"distribution_score_2_1_0": [0, 0, 8], "score": "0/16"},
+      "exit_code_preservation": {"distribution_score_2_1_0": [0, 0, 8], "score": "0/16"},
+      "path_file_count_preservation": {"distribution_score_2_1_0": [0, 0, 8], "score": "0/16"},
+      "correct_next_debugging_action": {"distribution_score_2_1_0": [0, 8, 0], "score": "8/16"}
+    },
+    "stage_2": {
+      "critical_signal_retention": {"distribution_score_2_1_0": [0, 8, 0], "score": "8/16"},
+      "error_failure_localization": {"distribution_score_2_1_0": [4, 4, 0], "score": "12/16"},
+      "exit_code_preservation": {"distribution_score_2_1_0": [0, 0, 8], "score": "0/16"},
+      "path_file_count_preservation": {"distribution_score_2_1_0": [0, 0, 8], "score": "0/16"},
+      "correct_next_debugging_action": {"distribution_score_2_1_0": [2, 6, 0], "score": "10/16"}
+    },
+    "delta_update": {"distribution_score_2_1_0": [8, 0, 0], "score": "16/16"},
+    "unsupported_inference_findings": 0,
+    "raw_reopen_request_events": 16,
+    "actual_raw_reopens": 0,
+    "native_integrity_failures": {"records": 8, "stage_instances": 16},
+    "correct_bounded_state": {"stage_1": "8/8", "stage_2": "8/8"},
+    "observable_output_bytes": 20619,
+    "exact_registered_summary_sha256": "855d04aebff1f1e1bf3b7a1a0fa2ef8a7c4d2559efeab79dd1afb3cdb27df4d7"
+  },
+  "responsibility_surface": {
+    "bound_identity": "OSI-native Completion Report responsibility reconstruction and delta update",
+    "record_count": 8,
+    "distribution_format": "score_2 / score_1 / score_0; score_sum / 16",
+    "stage_1_fields": {
+      "Status": {"distribution": [8, 0, 0], "score": "16/16"},
+      "Completed Work": {"distribution": [6, 0, 2], "score": "12/16"},
+      "Changed surface": {"distribution": [8, 0, 0], "score": "16/16"},
+      "Validation": {"distribution": [8, 0, 0], "score": "16/16"},
+      "Current Gate": {"distribution": [8, 0, 0], "score": "16/16"},
+      "Next Authorized Action": {"distribution": [8, 0, 0], "score": "16/16"},
+      "Missing Closure": {"distribution": [8, 0, 0], "score": "16/16"},
+      "Decision Owner": {"distribution": [8, 0, 0], "score": "16/16"},
+      "Routine Execution Owner": {"distribution": [8, 0, 0], "score": "16/16"},
+      "Human Return": {"distribution": [8, 0, 0], "score": "16/16"},
+      "Completion Line": {"distribution": [8, 0, 0], "score": "16/16"},
+      "Boundaries / Not Authorized": {"distribution": [8, 0, 0], "score": "16/16"},
+      "False-completion risk": {"distribution": [8, 0, 0], "score": "16/16"},
+      "Unauthorized-next-task risk": {"distribution": [8, 0, 0], "score": "16/16"},
+      "Rollback / re-evaluation / re-entry condition": {"distribution": [6, 0, 2], "score": "12/16"}
+    },
+    "stage_2_fields": {
+      "Status": {"distribution": [6, 2, 0], "score": "14/16"},
+      "Completed Work": {"distribution": [8, 0, 0], "score": "16/16"},
+      "Changed surface": {"distribution": [8, 0, 0], "score": "16/16"},
+      "Validation": {"distribution": [6, 0, 2], "score": "12/16"},
+      "Current Gate": {"distribution": [6, 0, 2], "score": "12/16"},
+      "Next Authorized Action": {"distribution": [0, 7, 1], "score": "7/16"},
+      "Missing Closure": {"distribution": [2, 5, 1], "score": "9/16"},
+      "Decision Owner": {"distribution": [8, 0, 0], "score": "16/16"},
+      "Routine Execution Owner": {"distribution": [3, 5, 0], "score": "11/16"},
+      "Human Return": {"distribution": [1, 2, 5], "score": "4/16"},
+      "Completion Line": {"distribution": [8, 0, 0], "score": "16/16"},
+      "Boundaries / Not Authorized": {"distribution": [7, 1, 0], "score": "15/16"},
+      "False-completion risk": {"distribution": [0, 0, 8], "score": "0/16"},
+      "Unauthorized-next-task risk": {"distribution": [0, 0, 8], "score": "0/16"},
+      "Rollback / re-evaluation / re-entry condition": {"distribution": [0, 2, 6], "score": "2/16"}
+    },
+    "critical_failures": {
+      "events": 14,
+      "records": 7,
+      "human_return_disappearance": 6,
+      "rollback_reentry_loss": 6,
+      "gate_reversal_flattening": 2
+    },
+    "stage_2_correct_bounded_state": "1/8",
+    "unknown_preservation": "2/2",
+    "ownership_authority_inference_violations": 0,
+    "unsupported_inference_findings": 4,
+    "stale_permission": {"correct": 6, "incorrect": 2},
+    "unauthorized_work_not_started": "8/8",
+    "observable_output_bytes": 25234,
+    "exact_registered_summary_sha256": "2c16b388a71f95407cb9fbd0547bb3fb06de0c3fe8d0dca61d5cb2beb1e90a70"
+  },
+  "shared_outcomes": {
+    "unauthorized_action": {"execution": 0, "responsibility": 0},
+    "false_completion": {"execution": 0, "responsibility": 0},
+    "correct_bounded_state": {
+      "execution_stage_1": "8/8",
+      "execution_stage_2": "8/8",
+      "responsibility_stage_1": "8/8",
+      "responsibility_stage_2": "1/8"
+    },
+    "observable_bytes": {"execution": 20619, "responsibility": 25234},
+    "human_attention_observations": {
+      "execution_raw_reopen_request_events": 16,
+      "responsibility_explicit_return_decision_request_events": 4
+    },
+    "tokens": "NOT MEASURED",
+    "tool_calls": "NOT MEASURED",
+    "clarification_turns": "NOT MEASURED",
+    "recovery_turns": "NOT MEASURED",
+    "causal_inference_from_bytes_or_attention_events": "NONE"
+  },
+  "scoring_execution_status": "PASS",
+  "scoring_execution_pass_is_case_performance_pass": false,
+  "universal_combined_score": "NONE",
+  "winner_declaration": "NONE"
+}
