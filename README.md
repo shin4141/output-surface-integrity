@@ -7,7 +7,39 @@
 [![human judgment: required](https://img.shields.io/badge/human%20judgment-required-orange.svg)](#what-makes-an-ai-completion-trustworthy)
 [![formal evidence: bounded](https://img.shields.io/badge/formal%20evidence-bounded-yellow.svg)](#formal-run-fr-v021-01)
 
-**Has this happened in an AI workflow?**
+Output Surface Integrity is a restart-oriented compression method for long-running human–AI work. It reduces the amount of prior material a receiving person or AI must reread by preserving only the operational state required to continue.
+
+## Internal Fixed-Case Result
+
+- Full input: `14,651` characters
+- Compact output: `3,267` characters
+- Character reduction: `77.70%`
+- Registered items preserved in scoring: `192 / 192`
+- Evaluation scope: eight fixed internal cases
+
+This result is limited to the fixed internal eight-case evaluation. It does not establish a general token-reduction rate, general time savings, equivalent effects in external environments, market demand, or superiority over other context-transfer methods.
+
+## From Less Rereading to Controlled Continuation
+
+OSI's public explanation follows this order:
+
+1. reduce rereading and re-explanation;
+2. retain the operational state required for restart;
+3. preserve reconnectability through **V11**, so retained state remains connected to its origin, As-of condition, stop condition, and rollback or re-entry path;
+4. prevent false completion and responsibility loss through **V12**, which preserves evidence, authority, ownership, unresolved state, and bounded acceptance; and
+5. govern the next loop through **V13**, which fixes the next safe action, next owner, and conditions for re-entry.
+
+V11, V12, and V13 support the restart-oriented compression method. They are not the opening claim, and none makes continuation automatic or proves general efficiency.
+
+## Start With One AI Output
+
+**[Start with one AI output — no Formal Run required.](docs/quick-use.md)**
+
+Ordinary use needs no blind evaluation, Gold, Mapping, multiple executors, or 18-item Formal Run. The [five-minute example](docs/quick-use.md#completed-example) and [copy-paste template](docs/quick-use.md#copy-paste-template) are ready to use.
+
+## Why This Matters
+
+Long-running human–AI work often creates the same restart costs repeatedly:
 
 - A new AI needs the same project explanation again.
 - The agent says “done,” but you still have to verify and clean up.
@@ -24,17 +56,11 @@ That is **False Completion**: the work looks finished locally while missing evid
 
 ## What OSI Does
 
-**OSI records the evidence, unresolved state, authority, rollback or restart point, and next owner before an AI output is accepted as complete.**
+OSI compacts the continuation surface: the bounded outcome, evidence required for the next judgment, unresolved state, authority, rollback or restart point, and next owner.
 
-It is not designed to make every isolated turn shorter. It is designed to prevent the same explanation, verification, evidence search, correction, and recovery work from being paid for repeatedly across turns, sessions, models, agents, and handoffs.
+It is designed to reduce repeated explanation and recovery without discarding the state needed to restart safely. It is not designed to make every isolated turn shorter, and the fixed internal result above is not a universal performance estimate.
 
 When the required state is preserved, OSI prevents repeated reconstruction by shifting work from repeated recovery to bounded one-time recording. This is an operating mechanism, not an experimentally measured saving.
-
-## Start With One AI Output
-
-**[Start with one AI output — no Formal Run required.](docs/quick-use.md)**
-
-Ordinary use needs no blind evaluation, Gold, Mapping, multiple executors, or 18-item Formal Run. The [five-minute example](docs/quick-use.md#completed-example) and [copy-paste template](docs/quick-use.md#copy-paste-template) are ready to use.
 
 ## Cost Now / Cost Later
 
@@ -167,6 +193,14 @@ These are character-count results for two fixed internal runs with registered ru
 - Primary rubric scoring of that later result; and
 - the FR-v0.2.1-01 final blind score.
 
+## Public Claims
+
+| Category | Current boundary |
+| --- | --- |
+| **SUPPORTED** | Fixed internal eight-case character reduction of `77.70%`.<br>`192 / 192` registered items preserved in scoring.<br>Repository and Formal Run facts that can be directly verified. |
+| **NOT ESTABLISHED** | General token reduction.<br>General time reduction.<br>Equivalent effects in external environments.<br>Market demand.<br>RTK superiority.<br>Universal handoff reliability. |
+| **PROHIBITED** | Reopening or retrospectively repairing FR-v0.2.1-01.<br>Rewriting private evidence chronology.<br>Presenting Scientific Missing Closure as resolved.<br>Converting lack of external response into demand rejection. |
+
 ### Evidence That Pressures the Hypothesis
 
 The repository also preserves adverse historical evidence. In an earlier fixed native-domain comparison, RTK produced the correct registered bounded state at Execution Stage 2 in `8 / 8` cases; OSI Responsibility Stage 2 produced the correct bounded state in `1 / 8`, with `14` critical failure events across `7` cases.
@@ -237,32 +271,9 @@ Level 4 has materially higher setup and custody cost. Reveal artifacts, manifest
 
 ## RTK and OSI: Use the Level the Work Requires
 
-> **Research evidence boundary**
->
-> Any executable RTK artifact under `evidence/` is preserved only as a fixed research artifact from the registered comparison. It is not an OSI adoption tool, bundled dependency, installer, or endorsed replacement for the authoritative RTK project.
->
-> For RTK itself, use the upstream RTK repository linked below.
+OSI overlaps with restart and context-transfer approaches such as RTK in the broad problem it addresses. OSI’s bounded contribution here is narrower: it evaluates whether a compact operational surface can preserve preregistered restart-relevant items across fixed internal cases. This repository does not claim superiority over RTK or equivalent performance outside the registered evaluation.
 
-The clean public projection contains no executable RTK artifact. See the [evidence boundary](evidence/README.md) for the fixed artifact identity retained in the private research archive.
-
-[RTK (Rust Token Killer)](https://github.com/rtk-ai/rtk) is a CLI proxy designed to reduce the command output entering an LLM context. Filtering, grouping, truncation, and deduplication make immediate execution output lighter. That is a useful and distinct job.
-
-OSI preserves responsibility-bearing completion state. It becomes rational when external or persistent state, evidence, authority, ownership, publication, long duration, or multi-agent continuation can make recovery costs compound.
-
-| Use RTK when… | Use OSI when… |
-| --- | --- |
-| immediate CLI/tool output is the main source of context friction | an output must be accepted, handed off, audited, or resumed |
-| work is low-impact and readily reversible | work changes persistent or external state |
-| no authority or ownership transfer depends on the filtered output | ownership or authority crosses a boundary |
-| Raw evidence remains accessible and recovery is cheap | later judgment depends on provenance and recovery is expensive |
-
-Use both when long-running execution needs economical command-output handling and inspectable responsibility state at completion or handoff. Use neither mechanically when a simple note is sufficient and no acceptance boundary exists.
-
-RTK reduces immediate continuation friction; OSI protects responsibility-bearing completion. Neither replaces the other across both surfaces, and the repository establishes no universal winner.
-
-RTK's adoption is a plausible adjacent signal that developers care strongly about AI continuation cost. It is not evidence of equal demand for OSI and does not prove market size.
-
-`PLAUSIBLE ADJACENT SIGNAL — NOT MARKET-SIZE PROOF`
+For RTK itself, use the [authoritative RTK repository](https://github.com/rtk-ai/rtk). The clean public projection contains no executable RTK artifact; the [evidence boundary](evidence/README.md) identifies the fixed artifact retained only in the private research archive.
 
 ## Why Inspect This Work?
 
@@ -287,20 +298,26 @@ Readers can inspect the artifacts and reach a different interpretation. Inspecta
 
 ## Formal Run FR-v0.2.1-01
 
-FR-v0.2.1-01 preserved pre-unblinding blindness and completed Runtime, Witness, and exactly-once Primary Evaluator observation. It did not complete the post-unblinding comparison because authoritative Gold and Mapping reveal-source binding could not be proven.
+This Formal Run is a subordinate completion-integrity record. Its terminal `BLOCK` is not project failure or full scientific validation. FR-v0.2.1-01 preserved pre-unblinding blindness and completed Runtime, Witness, and exactly-once Primary Evaluator observation, but it did not complete the post-unblinding comparison because the pre-existing Gold / Mapping source binding could not be proven.
 
 | Field | Final state |
 | --- | --- |
-| Formal Run | `BLOCK — TERMINALLY CLOSED` |
-| Runtime / Witness | `18 / 18 — COMPLETE` |
-| Primary Evaluator | Exactly once over `18 / 18` B-IDs |
+| Formal Run | `FR-v0.2.1-01` |
+| Terminal Gate | `BLOCK — TERMINALLY CLOSED` |
+| Runtime | `18 / 18` |
+| Witness | `18 / 18` |
+| Primary Evaluator | Exactly `1`, over `18 / 18` B-IDs |
 | Blind Observation Ledger | `FROZEN` — SHA-256 `176da386cc4aefe481ecf1fe13b7e60c0d051e440c403da2866fa3434e7968d0` |
 | Pre-freeze Gold / Mapping access | `0 / 0` |
 | PE rerun / replacement | `0 / 0` |
 | Runtime / Ledger modification | `0 / 0` |
 | Final blind score | `NOT COMPUTABLE` |
+| Operational Missing Closure | `NONE` |
+| Scientific Missing Closure | `pre-existing Gold / Mapping source binding` |
 | Claim | `PRESSURED — UNCHANGED` |
 | Falsifier | `UNRESOLVED — UNCHANGED` |
+
+The run remains terminally closed. No reopening, Gold or Mapping reconstruction, retrospective commitment repair, rerun, or replacement is permitted.
 
 ### What Completed
 
