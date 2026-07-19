@@ -1,0 +1,27 @@
+name: Documentation correction
+description: Propose a bounded correction to public documentation.
+title: "[Docs] "
+labels: []
+body:
+  - type: input
+    id: document-section
+    attributes: {label: Document and section}
+    validations: {required: true}
+  - type: textarea
+    id: current-wording
+    attributes: {label: Current wording}
+    validations: {required: true}
+  - type: textarea
+    id: proposed-correction
+    attributes: {label: Proposed correction}
+    validations: {required: true}
+  - type: textarea
+    id: evidence-source
+    attributes: {label: Evidence source}
+    validations: {required: true}
+  - type: dropdown
+    id: boundary-impact
+    attributes:
+      label: Does this affect a claim boundary or historical chronology?
+      options: ["Yes", "No", "Not sure"]
+    validations: {required: true}

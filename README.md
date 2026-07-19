@@ -1,5 +1,12 @@
 # Output Surface Integrity
 
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![status: public prototype](https://img.shields.io/badge/status-public%20prototype-blue.svg)](README.md)
+[![Level 1: ready](https://img.shields.io/badge/Level%201-ready-brightgreen.svg)](docs/quick-use.md)
+[![automation: none](https://img.shields.io/badge/automation-none-lightgrey.svg)](#limits-and-non-goals)
+[![human judgment: required](https://img.shields.io/badge/human%20judgment-required-orange.svg)](#what-makes-an-ai-completion-trustworthy)
+[![formal evidence: bounded](https://img.shields.io/badge/formal%20evidence-bounded-yellow.svg)](#formal-run-fr-v021-01)
+
 **Has this happened in an AI workflow?**
 
 - A new AI needs the same project explanation again.
@@ -362,6 +369,14 @@ This does not prove OSI's empirical performance. It directly demonstrates the pr
 ### Research background
 
 - [Responsibility-weighted OSI/RTK positioning](notes/responsibility_weighted_osi_rtk_positioning.md).
+
+## Contributing and Reporting
+
+- [Contributing guide](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Security and private disclosure guidance](SECURITY.md)
+- [Support guidance](SUPPORT.md)
+- [Issue templates](.github/ISSUE_TEMPLATE/)
 
 ## License
 

@@ -1,0 +1,34 @@
+name: Claim or evidence contradiction
+description: High-priority report of a public claim/evidence mismatch.
+title: "[Claim Boundary] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "High priority: do not include private Gold, Mapping, Primary Evaluator observations, secrets, internal IDs, or private filesystem paths."
+  - type: textarea
+    id: exact-claim
+    attributes: {label: Exact public claim}
+    validations: {required: true}
+  - type: input
+    id: location
+    attributes: {label: File and line or anchor}
+    validations: {required: true}
+  - type: textarea
+    id: contradicting-evidence
+    attributes: {label: Contradicting public evidence}
+    validations: {required: true}
+  - type: input
+    id: as-of-date
+    attributes: {label: As-of date, placeholder: "YYYY-MM-DD"}
+    validations: {required: true}
+  - type: dropdown
+    id: contradiction-type
+    attributes:
+      label: Contradiction type
+      options: ["Stale chronology", "Unsupported inference", "Missing boundary", "Evidence mismatch", "Public/private status mismatch"]
+    validations: {required: true}
+  - type: textarea
+    id: bounded-correction
+    attributes: {label: Proposed bounded correction}
+    validations: {required: true}

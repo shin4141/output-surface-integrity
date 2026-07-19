@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a reproducible defect in the public OSI surface.
+title: "[Bug] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include secrets, private records, internal identifiers, or private filesystem paths."
+  - type: dropdown
+    id: usage-level
+    attributes:
+      label: OSI usage level
+      options: ["Level 1", "Level 2", "Level 3", "Level 4", "Not sure"]
+    validations: {required: true}
+  - type: input
+    id: affected-surface
+    attributes: {label: Affected file or feature}
+    validations: {required: true}
+  - type: textarea
+    id: expected
+    attributes: {label: Expected behavior}
+    validations: {required: true}
+  - type: textarea
+    id: actual
+    attributes: {label: Actual behavior}
+    validations: {required: true}
+  - type: textarea
+    id: reproduction
+    attributes: {label: Reproduction steps}
+    validations: {required: true}
+  - type: textarea
+    id: evidence
+    attributes: {label: Evidence or stable references}
+    validations: {required: true}
+  - type: textarea
+    id: gate
+    attributes: {label: Gate expected / received}
+    validations: {required: true}
+  - type: checkboxes
+    id: public-data-confirmation
+    attributes:
+      label: Public-data confirmation
+      options:
+        - label: I confirm this report contains no secrets, private records, internal IDs, or private filesystem paths.
+          required: true
+    validations: {required: true}

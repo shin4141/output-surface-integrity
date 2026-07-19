@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/shin4141/output-surface-integrity/security/advisories/new
+    about: Report sensitive security issues privately. Do not disclose secrets or private evidence in a public issue.
+  - name: Support guidance
+    url: https://github.com/shin4141/output-surface-integrity/blob/main/SUPPORT.md
+    about: Read the bounded support scope before opening an issue.

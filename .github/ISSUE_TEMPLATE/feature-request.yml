@@ -1,0 +1,39 @@
+name: Bounded proposal
+description: Propose a feature or integration with explicit cost and claim boundaries.
+title: "[Proposal] "
+labels: []
+body:
+  - type: textarea
+    id: problem
+    attributes: {label: Problem}
+    validations: {required: true}
+  - type: textarea
+    id: proposed-change
+    attributes: {label: Proposed change}
+    validations: {required: true}
+  - type: textarea
+    id: expected-benefit
+    attributes: {label: Expected benefit}
+    validations: {required: true}
+  - type: textarea
+    id: process-cost
+    attributes: {label: Added process cost}
+    validations: {required: true}
+  - type: dropdown
+    id: scope-level
+    attributes:
+      label: Scope level
+      options: ["Level 1", "Level 2", "Level 3", "Level 4", "Repository-wide"]
+    validations: {required: true}
+  - type: textarea
+    id: claim-impact
+    attributes: {label: Claim or evidence impact}
+    validations: {required: true}
+  - type: textarea
+    id: rollback
+    attributes: {label: Rollback or restart point}
+    validations: {required: true}
+  - type: textarea
+    id: lightweight-insufficient
+    attributes: {label: Why the lightweight path is insufficient}
+    validations: {required: true}

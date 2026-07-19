@@ -1,0 +1,42 @@
+name: Adoption experience
+description: Share a bounded OSI usage experience without converting it into a general effect claim.
+title: "[Adoption] "
+labels: []
+body:
+  - type: dropdown
+    id: usage-level
+    attributes:
+      label: Usage level
+      options: ["Level 1", "Level 2", "Level 3", "Level 4"]
+    validations: {required: true}
+  - type: textarea
+    id: workflow
+    attributes: {label: AI or tool workflow}
+    validations: {required: true}
+  - type: textarea
+    id: recurring-pain
+    attributes: {label: Recurring pain}
+    validations: {required: true}
+  - type: textarea
+    id: osi-record
+    attributes: {label: OSI record used}
+    validations: {required: true}
+  - type: input
+    id: gate-result
+    attributes: {label: Gate result}
+    validations: {required: true}
+  - type: textarea
+    id: easier
+    attributes: {label: What became easier}
+    validations: {required: true}
+  - type: textarea
+    id: costly
+    attributes: {label: What remained costly}
+    validations: {required: true}
+  - type: dropdown
+    id: evidence-kind
+    attributes:
+      label: Evidence classification
+      description: Adoption reports are not automatically promoted into README effect claims.
+      options: ["Measured evidence", "Subjective experience"]
+    validations: {required: true}

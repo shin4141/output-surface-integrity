@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use Output Surface Integrity, please cite this repository."
+title: "Output Surface Integrity"
+type: software
+authors:
+  - family-names: "Shin"
+repository-code: "https://github.com/shin4141/output-surface-integrity"
+license: MIT
