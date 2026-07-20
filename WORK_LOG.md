@@ -48,3 +48,17 @@
 - Rollback point: `c65397335f5351e894b0eb74828b3da12284df12`
 - Forward-only correction reason: Social Preview persistence was complete, but README-visible discovery closure was missing.
 - Unmodified surfaces: the image asset, Social Preview setting, About, topics, external posts, tags/releases, private evidence, and Formal Run were not modified.
+
+## As-of 2026-07-20 — PUBLIC-ONBOARDING-FRICTION-01
+
+- Base HEAD: `215c2c15f3f545a8735644086ab6d825d1ea257b`
+- Responsibility: `PUBLIC-ONBOARDING-FRICTION-01`
+- Branch: `improve/one-minute-restart-check`
+- Changed files: `README.md`, `docs/quick-use.md`, `WORK_LOG.md`
+- Objective: reduce first-use friction by letting a visitor answer four restart questions and copy a six-field restart note before entering the fuller completion-integrity workflow.
+- Primary CTA before: `Try the five-minute OSI template →`
+- Primary CTA after: `Run the one-minute restart check →`
+- New quick-use anchor: `#one-minute-check`
+- Protected objects: `14,651 → 3,267`; `77.70%`; `192 / 192`; fixed internal eight-case scope; character versus token boundary; existing image identity; Formal Run terminal closure; current public chronology; Shin's Decision Owner Seat.
+- Rollback point: `215c2c15f3f545a8735644086ab6d825d1ea257b`
+- Unmodified surfaces: no image, Social Preview, About, topics, external post, tag, release, private evidence, Formal Run, API, Skill, or runtime surface was modified.

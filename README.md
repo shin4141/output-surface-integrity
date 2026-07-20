@@ -6,7 +6,9 @@
 
 Output Surface Integrity is a restart-oriented compression method for long-running human–AI work. It reduces the amount of prior material a receiving person or AI must reread by preserving only the operational state required to continue.
 
-[![Output Surface Integrity restart difference: 14,651 to 3,267 characters, 77.70% fewer characters, and 192 / 192 registered restart items retained in scoring](assets/social-preview/osi-social-preview.png)](docs/quick-use.md#copy-paste-template)
+[![Output Surface Integrity restart difference: 14,651 to 3,267 characters, 77.70% fewer characters, and 192 / 192 registered restart items retained in scoring](assets/social-preview/osi-social-preview.png)](docs/quick-use.md#one-minute-check)
+
+**[Run the one-minute restart check →](docs/quick-use.md#one-minute-check)**
 
 ## See the Restart Difference
 
@@ -51,7 +53,7 @@ This does not reveal the changed surface, evidence, unresolved state, restart po
 - Next owner: receiving maintainer
 - Gate: `PASS`
 
-**[Try the five-minute OSI template →](docs/quick-use.md#copy-paste-template)**
+For a stronger completion check, continue to the [full five-minute workflow and template](docs/quick-use.md#full-five-minute-workflow).
 
 No installation, blind evaluation, Gold, Mapping, or multi-agent setup is required for the Level 1 workflow.
 
