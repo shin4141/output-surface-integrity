@@ -2,7 +2,39 @@
 
 [Back to the project README](../README.md)
 
-This lightweight workflow produces a manual Output Surface Integrity record for one AI output, coding task, handoff, or completion report. It requires no blind Gold, Mapping, multi-executor study, or software installation.
+This page helps you turn one AI “done” report into a restart note that another human or AI can continue from.
+
+Start with the quick check below. Use the full five-minute workflow only when the task needs stronger completion inspection.
+
+## One-Minute Check
+
+Before accepting or handing off an AI “done” report, answer four questions:
+
+1. **What changed?**
+2. **What remains unresolved or `UNKNOWN`?**
+3. **Where should work restart?**
+4. **What is the next action, and who owns it?**
+
+If all four answers are clear, the next human or AI has a usable restart surface.
+
+If any answer is missing, do not invent it. Record the missing state and continue from the short note below.
+
+### Copy This Restart Note
+
+```markdown
+# OSI Restart Note
+
+- Claimed done:
+- What changed:
+- What remains unresolved or UNKNOWN:
+- Restart from:
+- Next action:
+- Next owner:
+```
+
+This note is a low-cost restart surface. It is not independent proof that the claimed work occurred.
+
+**[Copy the fuller five-minute template ↓](#copy-paste-template)**
 
 ## What You Need
 
@@ -16,7 +48,7 @@ This lightweight workflow produces a manual Output Surface Integrity record for 
 
 If a fact is unavailable, record `UNKNOWN` or `MISSING`. Do not infer it from confident wording.
 
-## Five-Minute Workflow
+## Full Five-Minute Workflow
 
 1. **Freeze the output.** Preserve the response, patch, commit, file, or artifact under a stable reference. Do not evaluate a moving target.
 2. **Bound the claim.** Copy what the output says completed. Separate facts from inference.
