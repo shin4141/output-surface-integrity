@@ -2,7 +2,7 @@
 
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![status: public prototype](https://img.shields.io/badge/status-public%20prototype-blue.svg)](README.md)
-[![5-minute quickstart](https://img.shields.io/badge/quickstart-5%20minutes-brightgreen.svg)](docs/quick-use.md#copy-paste-template)
+[![1-minute restart check](https://img.shields.io/badge/quickstart-1%20minute-brightgreen.svg)](docs/quick-use.md#one-minute-check)
 
 Output Surface Integrity is a restart-oriented compression method for long-running human–AI work. It reduces the amount of prior material a receiving person or AI must reread by preserving only the operational state required to continue.
 
