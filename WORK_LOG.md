@@ -102,3 +102,17 @@
 - Bounded image-delta audit: `PASS`; donor pixels were copied only inside the four approved masks and all decoded pixels outside their union remain identical to the prior canonical image.
 - Rollback point: `69c4239c0467234fb5d4b2b6df4a8056cce1a08e`
 - Protected and unchanged surfaces: `4×` hook; acceleration-first positioning; illustrative/not-measured boundary; chart geometry, line identities, colors, and scenario values; one-minute CTA; `14,651 → 3,267`; `77.70%`; `192 / 192`; fixed internal eight-case evaluation; Social Preview identity; Formal Run terminal closure; Scientific Missing Closure; README and `docs/operating-gap.md` text; Shin's Decision Owner Seat.
+
+## As-of 2026-07-21T17:58:05+0900 — OSI-CACHE-BUSTED-PUBLIC-ASSET-CLOSURE-01
+
+- Verified base HEAD: `0cacb056cdabf6109a716246904bfbdcd97c378b`
+- Branch: `fix/cache-bust-operating-gap-image`
+- Old path: `assets/marketing/osi-4x-operating-gap.png`
+- New path: `assets/marketing/osi-4x-operating-gap-neutral-v2.png`
+- Image SHA-256: `5a49754c1626a94061cae390198fccff5eaef188420f0d3bd2d5939099040f39` (unchanged)
+- Image dimensions: `1672 × 941` (unchanged)
+- Reason: prevent stale same-URL image delivery before Reddit posting.
+- Reference updates: README lead image and `docs/operating-gap.md` now use the unique cache-busted path; the destination link and boundary text are unchanged.
+- Old-path deletion: the ambiguous previous PNG path was removed after byte-for-byte identity verification.
+- Rollback point: `0cacb056cdabf6109a716246904bfbdcd97c378b`
+- Protected and unchanged surfaces: approved PNG bytes; `4×` hook; neutral-copy replacements; illustrative/not-measured boundary; one-minute CTA; `14,651 → 3,267`; `77.70%`; `192 / 192`; fixed internal eight-case evaluation; Social Preview identity; Formal Run terminal closure; Scientific Missing Closure; Shin's Decision Owner Seat.
