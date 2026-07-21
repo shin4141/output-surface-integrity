@@ -1,6 +1,6 @@
 # How a 4× Operating Gap Can Emerge
 
-![Illustrative chart showing how recovery overhead, restart compression, and compounding operational learning can create a widening output gap under the same model usage limit.](../assets/marketing/osi-4x-operating-gap.png)
+![Illustrative chart showing how recovery overhead, restart compression, and compounding operational learning can create a widening output gap under the same model usage limit.](../assets/marketing/osi-4x-operating-gap-neutral-v2.png)
 
 ## Boundary
 

@@ -6,7 +6,7 @@
 
 Output Surface Integrity is a restart-oriented compression method for long-running human–AI work. It reduces the amount of prior material a receiving person or AI must reread by preserving only the operational state required to continue.
 
-[![Illustrative chart showing how the same model and usage limit can produce a widening operating gap when recovery overhead and restart efficiency differ](assets/marketing/osi-4x-operating-gap.png)](docs/operating-gap.md)
+[![Illustrative chart showing how the same model and usage limit can produce a widening operating gap when recovery overhead and restart efficiency differ](assets/marketing/osi-4x-operating-gap-neutral-v2.png)](docs/operating-gap.md)
 
 **[Run the one-minute restart check →](docs/quick-use.md#one-minute-check)**
 
