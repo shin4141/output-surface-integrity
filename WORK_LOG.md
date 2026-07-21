@@ -74,3 +74,16 @@
 - Rollback point: `39de07fe0c81b4718fb7c56febad23e233cf3d08`
 - Protected objects: `14,651 → 3,267` characters; `77.70%` character reduction; `192 / 192` registered restart items retained in scoring; fixed internal eight-case scope; character-versus-token boundary; no general productivity, time-saving, external-equivalence, market-demand, or independent-proof claim; existing README top and one-minute path; Social Preview identity and SHA-256; Formal Run terminal closure; Scientific Missing Closure; Shin's Decision Owner Seat.
 - Unchanged surfaces: README, Social Preview, About, topics, Formal Run and scientific evidence, releases, tags, external posts, API, Skill, automation, runtime surfaces, and private repository.
+
+## As-of 2026-07-21T15:56:57+0900 — OSI-README-ACCELERATION-FIRST-SURFACE-01
+
+- Verified base HEAD: `44cf9e0a2b7ec9919732317d7d7434cac0a46131`
+- Branch: `improve/readme-acceleration-first-visual`
+- Changed files: `README.md`, `WORK_LOG.md`
+- Old README visual path: `assets/social-preview/osi-social-preview.png`
+- New README visual path: `assets/marketing/osi-4x-operating-gap.png`
+- New visual destination: `docs/operating-gap.md`
+- Rationale: acceleration-first lead visual, measured evidence retained below.
+- Rollback point: `44cf9e0a2b7ec9919732317d7d7434cac0a46131`
+- Protected objects: `14,651 → 3,267` characters; `77.70%` character reduction; `192 / 192` registered restart items retained in scoring; fixed internal eight-case scope; character-versus-token boundary; no measured general productivity, time-saving, external-equivalence, or market-demand claim; operating-gap boundary and PNG identity; Social Preview identity; one-minute CTA and workflow; Formal Run terminal closure; Scientific Missing Closure; Shin's Decision Owner Seat.
+- Unchanged surfaces: both PNG files, `docs/operating-gap.md`, measured-result section, one-minute workflow, badges, Social Preview setting, About, topics, releases, tags, external posts, API, Skill, automation, runtime surfaces, Formal Run, scientific evidence, and private repository.
