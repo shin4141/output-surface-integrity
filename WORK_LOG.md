@@ -87,3 +87,18 @@
 - Rollback point: `44cf9e0a2b7ec9919732317d7d7434cac0a46131`
 - Protected objects: `14,651 → 3,267` characters; `77.70%` character reduction; `192 / 192` registered restart items retained in scoring; fixed internal eight-case scope; character-versus-token boundary; no measured general productivity, time-saving, external-equivalence, or market-demand claim; operating-gap boundary and PNG identity; Social Preview identity; one-minute CTA and workflow; Formal Run terminal closure; Scientific Missing Closure; Shin's Decision Owner Seat.
 - Unchanged surfaces: both PNG files, `docs/operating-gap.md`, measured-result section, one-minute workflow, badges, Social Preview setting, About, topics, releases, tags, external posts, API, Skill, automation, runtime surfaces, Formal Run, scientific evidence, and private repository.
+
+## As-of 2026-07-21T16:47:37+0900 — OSI-OPERATING-GAP-LOCALIZED-TEXT-PATCH-01
+
+- Verified base HEAD: `69c4239c0467234fb5d4b2b6df4a8056cce1a08e`
+- Branch: `fix/operating-gap-localized-text-patch`
+- Changed files: `assets/marketing/osi-4x-operating-gap.png`, `WORK_LOG.md`
+- Image SHA-256: `38753b071dd54b3ae8cb398e0ce728e6723cf46d6be2adfbc6282babc4343ba5` → `5a49754c1626a94061cae390198fccff5eaef188420f0d3bd2d5939099040f39`
+- Image dimensions: `1672 × 941` (unchanged)
+- Localized masks, inclusive pixel coordinates: `(306, 82)–(1370, 123)` subheadline; `(197, 368)–(409, 399)` Month 1 baseline label; `(1368, 474)–(1645, 510)` right-side baseline label; `(218, 775)–(805, 809)` bottom-left replacement statement first line.
+- Outside-mask changed pixels: `0`
+- Approved copy delta: replace the blame-oriented subheadline with “Same effort. Same model limit. Very different amounts of usable work survive.”; replace visible ordinary-user labels with “Baseline operation”; replace “The strongest operators do not only work faster.” with “Resilient workflows do not only recover faster.”
+- Reason: remove competence hierarchy and reader blame without globally rerendering the approved visual.
+- Bounded image-delta audit: `PASS`; donor pixels were copied only inside the four approved masks and all decoded pixels outside their union remain identical to the prior canonical image.
+- Rollback point: `69c4239c0467234fb5d4b2b6df4a8056cce1a08e`
+- Protected and unchanged surfaces: `4×` hook; acceleration-first positioning; illustrative/not-measured boundary; chart geometry, line identities, colors, and scenario values; one-minute CTA; `14,651 → 3,267`; `77.70%`; `192 / 192`; fixed internal eight-case evaluation; Social Preview identity; Formal Run terminal closure; Scientific Missing Closure; README and `docs/operating-gap.md` text; Shin's Decision Owner Seat.
