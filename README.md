@@ -23,14 +23,18 @@ Compact restart surface
 192 / 192 registered restart items retained in scoring
 ```
 
+In one fixed internal eight-case evaluation, restart material was reduced from `14,651` to `3,267` characters — a `77.70%` character reduction — while retaining `192 / 192` registered restart items in scoring. The complete public reproduction package for this internal evaluation is not currently included in the repository.
+
 The compact restart surface preserves the answers needed for bounded continuation:
 
 - What changed?
 - What remains unresolved?
 - Where should work restart?
-- Who owns the next action?
+- Who is proposed to own the next action?
 
 A new human or AI can continue from the bounded operational state instead of reconstructing the entire project history.
+
+If responsibility transfer is claimed, naming a proposed owner is not enough: the receiver's acceptance, acknowledgement evidence, and timestamp must also be recorded.
 
 ## One Output Before and After OSI
 
@@ -46,12 +50,16 @@ This does not reveal the changed surface, evidence, unresolved state, restart po
 
 - Output reference: `PATCH-001`
 - Changed surface: `src/parser.ts`; `tests/parser.test.ts`
-- Validation receipt: `RECEIPT-001` — `PASS`
-- Missing closure: `NONE` within the named Level 1 boundary
+- Validation receipt: `RECEIPT-001` — illustrative identifier, not inspectable here
+- Authority source: illustrative Level 1 acceptance policy, not supplied here
+- Missing closure: inspectable artifact, command/output/status, authority source, and receiver acceptance
 - Restart point: state immediately before `PATCH-001`
-- Next action: accept the bounded parser maintenance change
-- Next owner: receiving maintainer
-- Gate: `PASS`
+- Next action: inspect the evidence before accepting the bounded parser maintenance change
+- Responsibility transfer: claimed in this walkthrough
+- Proposed next owner: receiving maintainer
+- Receiver acceptance: `NOT RECORDED` — acknowledgement and timestamp missing
+- Example status: `ILLUSTRATIVE`
+- Gate: `DELAY — NOT VERIFIED`
 
 For a stronger completion check, continue to the [full five-minute workflow and template](docs/quick-use.md#full-five-minute-workflow).
 
@@ -104,7 +112,7 @@ When the required state is preserved, OSI prevents repeated reconstruction by sh
 | Evidence is incomplete | Evidence and procedure are recorded |
 | The next session reconstructs state | Restart state is inherited |
 | Verification is repeated | Prior verification remains inspectable |
-| Ownership is unclear | The next owner is named |
+| Ownership is unclear | The proposed next owner and any required receiver acceptance are visible |
 | Mistakes create repair work | Missing Closure blocks unsafe continuation |
 
 OSI pays a bounded integrity cost once. Missing completion state may otherwise be paid for repeatedly by every later human, model, session, or agent.
@@ -131,11 +139,11 @@ This is an operating mechanism, not a published percentage effect.
 
 The semantic claim may be correct, but receipt and completion integrity are not yet sufficient to accept “done.”
 
-Closure would require a stable output reference, the exact changed paths, the actual validation command and result, any required independent closure state, unresolved assumptions, a rollback/restart point, and a named owner for the next safe action.
+Closure would require a stable output reference, the exact changed paths, the actual validation command and result, the named authority source, any required independent closure state, unresolved assumptions, a rollback/restart point, and a proposed owner for the next safe action. If completed handoff is claimed, the receiver's acceptance evidence is also required.
 
 Without that record, the next session must rediscover the state. With it, the next human or AI can inspect the missing closure and resume at the bounded action without pretending the change failed.
 
-See the [completed Level 1 example](docs/quick-use.md#completed-example).
+See the [illustrative Level 1 walkthrough](docs/quick-use.md#illustrative-evidence-walkthrough).
 
 ## What OSI Changes
 
@@ -151,7 +159,8 @@ OSI separates an answer from the state required to accept, transfer, audit, or r
 | Witness state | Was independent fixation required, and was it completed? |
 | Unresolved items | What remains unknown, missing, or contradictory? |
 | Rollback / restart point | Where can work be reversed or safely resumed? |
-| Next owner | Who owns the next bounded action or judgment? |
+| Proposed next owner | Who is proposed for the next bounded action or judgment? |
+| Receiver acceptance | If responsibility transfer is claimed, did the receiver accept, and what acknowledgement and timestamp prove it? |
 | Gate | Is bounded acceptance `PASS`, `DELAY`, or `BLOCK`? |
 
 The difference is:
@@ -190,9 +199,9 @@ This is the project's long-run cost hypothesis and operating rationale. Comparat
 
 ## Evidence: Measured and Not Yet Measured
 
-### Verified integrity evidence
+### Reported Formal Run record
 
-| Verified fact | Recorded value |
+| Reported field | Recorded value |
 | --- | ---: |
 | Runtime executions | `18 / 18` |
 | Witness fixations | `18 / 18` |
@@ -203,7 +212,7 @@ This is the project's long-run cost hypothesis and operating rationale. Comparat
 | Runtime / Ledger modification | `0 / 0` |
 | Later V11+V12 validator-side result | `7 PASS / 1 DELAY / 0 BLOCK` |
 
-These counts show integrity and exactly-once discipline. They are not efficiency effect sizes.
+These are reported Formal Run counts, not independently reproducible facts from this public repository. The public repository records the values and terminal chronology but does not include all source preimages, custody artifacts, manifests, or identity bindings needed to reproduce them. They are not efficiency effect sizes.
 
 ### Fixed internal representation results
 
@@ -212,7 +221,7 @@ These counts show integrity and exactly-once discipline. They are not efficiency
 | Candidate reports | `14,651` characters | `3,267` | `11,384` | `77.70%` | `8` |
 | Synthetic adversarial reports | `24,711` characters | `10,763` | `13,948` | `56.44%` | `8` |
 
-These are character-count results for two fixed internal runs with registered rubric reconstruction. They are not token, time, total-cost, handoff, safety, or external-performance measurements. See the [Claim Boundary](CLAIM_BOUNDARY.md), [registered measured facts](evaluation/osi_rtk_native_domain_v0.2/comparison_interpretation_packet_v0.1/measured_score_facts.json), and [native-domain protocol](notes/osi_rtk_native_domain_comparison_protocol_v0.2.md).
+These are recorded character-count results for two fixed internal runs. The candidate result includes recorded scoring of `192 / 192`; the synthetic row records packet-build totals, while its cold-start scoring assertions remain pending and must not be presented as completed. The complete public corpus, registry, scoring rows, processor, and counting rules are not included here. These are not token, time, total-cost, handoff, safety, or external-performance measurements. See the [Claim Boundary](CLAIM_BOUNDARY.md), [registered measured facts](evaluation/osi_rtk_native_domain_v0.2/comparison_interpretation_packet_v0.1/measured_score_facts.json), and [native-domain protocol](notes/osi_rtk_native_domain_comparison_protocol_v0.2.md).
 
 ### Not measured or not completed
 
@@ -231,7 +240,7 @@ These are character-count results for two fixed internal runs with registered ru
 
 | Category | Current boundary |
 | --- | --- |
-| **SUPPORTED** | Fixed internal eight-case character reduction of `77.70%`.<br>`192 / 192` registered items preserved in scoring.<br>Repository and Formal Run facts that can be directly verified. |
+| **RECORDED INTERNAL RESULT** | Fixed internal eight-case character reduction of `77.70%`.<br>`192 / 192` registered items retained in scoring.<br>The arithmetic and recorded values are public; the complete reproduction package is not. |
 | **NOT ESTABLISHED** | General token reduction.<br>General time reduction.<br>Equivalent effects in external environments.<br>Market demand.<br>RTK superiority.<br>Universal handoff reliability. |
 | **PROHIBITED** | Reopening or retrospectively repairing FR-v0.2.1-01.<br>Rewriting private evidence chronology.<br>Presenting Scientific Missing Closure as resolved.<br>Converting lack of external response into demand rejection. |
 
@@ -271,9 +280,10 @@ This is substantial Forward-only architectural recovery from the earlier `1 / 8`
 | Gate | `PASS`, `DELAY`, or `BLOCK`. |
 | Missing Closure | What still prevents bounded acceptance. |
 | Next safe action | The bounded point where work may continue or restart. |
-| Next owner | The human, agent, or role responsible for that action or judgment. |
+| Proposed next owner | The human, agent, or role proposed for that action or judgment. |
+| Receiver acceptance | For a claimed responsibility transfer: acceptance status, acknowledgement evidence, and timestamp. |
 
-- `PASS` means the bounded completion claim is supported well enough for the stated acceptance decision; it is not proof of truth.
+- `PASS` requires an inspectable artifact identity, inspectable receipt or execution evidence, actual command/output/status when execution is claimed, a named authority source, no unresolved blocker, and receiver acceptance when responsibility transfer is claimed. Plausible identifiers alone are insufficient. It is not proof of truth.
 - `DELAY` means closure may be reachable after specified evidence or verification is obtained; it is not failure.
 - `BLOCK` means accepting or continuing would cross an integrity or authority boundary; it is not punishment.
 
@@ -287,7 +297,7 @@ Use for one AI output, coding task, completion report, or ordinary handoff. Reco
 
 ### Level 2 — Repository / Handoff Integrity
 
-Use for state-changing work across sessions: identify changed files or systems, evidence, authority, unresolved assumptions, rollback, current owner, and the receiving owner's restart point.
+Use for state-changing work across sessions: identify changed files or systems, evidence, authority, unresolved assumptions, rollback, the proposed next owner, and—when responsibility transfer is claimed—the receiver's acceptance and restart point.
 
 Useful public references: the [quick-use template](docs/quick-use.md), [Claim Boundary](CLAIM_BOUNDARY.md), and [canonical failure record](experiments/osi_failure_forward_delta_ledger_v0_1/failure_forward_delta_ledger_v0.1.md#hl-012--fr-v021-01-completion-integrity-failure-record).
 
@@ -317,11 +327,11 @@ You can inspect:
 
 - the published Forward-only correction and failure chronology;
 - [schemas and templates](docs/quick-use.md#copy-paste-template);
-- the lightweight adoption path and completed example;
-- Formal Run counts and the frozen Ledger identity;
+- the lightweight adoption path and illustrative walkthrough;
+- recorded Formal Run counts and the frozen Ledger identity;
 - the preserved terminal `BLOCK`;
 - the [failure chronology](experiments/osi_failure_forward_delta_ledger_v0_1/failure_forward_delta_ledger_v0.1.md);
-- published evidence hashes and registered methods; and
+- published evidence-hash labels and registered methods; and
 - explicit measured, inferred, hypothesized, and unmeasured boundaries.
 
 The failure record is not a claim of empirical success. It is evidence that the project did not rewrite the past, reconstruct unavailable custody artifacts, or manufacture a final score after a completion joint failed.
@@ -332,7 +342,7 @@ Readers can inspect the artifacts and reach a different interpretation. Inspecta
 
 ## Formal Run FR-v0.2.1-01
 
-This Formal Run is a subordinate completion-integrity record. Its terminal `BLOCK` is not project failure or full scientific validation. FR-v0.2.1-01 preserved pre-unblinding blindness and completed Runtime, Witness, and exactly-once Primary Evaluator observation, but it did not complete the post-unblinding comparison because the pre-existing Gold / Mapping source binding could not be proven.
+This Formal Run is a subordinate completion-integrity record. Its terminal `BLOCK` is not project failure or full scientific validation. The historical record reports preserved pre-unblinding blindness and completed Runtime, Witness, and exactly-once Primary Evaluator observation, but the post-unblinding comparison did not complete because the pre-existing Gold / Mapping source binding could not be proven.
 
 | Field | Final state |
 | --- | --- |
@@ -346,14 +356,16 @@ This Formal Run is a subordinate completion-integrity record. Its terminal `BLOC
 | PE rerun / replacement | `0 / 0` |
 | Runtime / Ledger modification | `0 / 0` |
 | Final blind score | `NOT COMPUTABLE` |
-| Operational Missing Closure | `NONE` |
-| Scientific Missing Closure | `pre-existing Gold / Mapping source binding` |
+| Operational Missing Closure | `NONE` within the terminally closed operational scope; this does not mean scientific closure |
+| Scientific Missing Closure | `UNRESOLVED` — Gold/Mapping source binding and public reveal-custody inspectability |
 | Claim | `PRESSURED — UNCHANGED` |
 | Falsifier | `UNRESOLVED — UNCHANGED` |
 
 The run remains terminally closed. No reopening, Gold or Mapping reconstruction, retrospective commitment repair, rerun, or replacement is permitted.
 
-### What Completed
+The public record distinguishes reported execution from inspectable scientific closure. It does not include every retrievable hash preimage, custody and retrieval artifact, visible-role/internal-identity/artifact mapping, closure record for the earlier blinding or authorization HOLD, or independent reveal-retrievability preflight. Those absences keep scientific closure unresolved while the terminal `BLOCK` remains correct.
+
+### What the historical record reports as completed
 
 - all 18 Runtime executions and all 18 Witness fixations;
 - exactly one Primary Evaluator observation over B001–B018;
@@ -396,7 +408,7 @@ This does not prove OSI's empirical performance. It directly demonstrates the pr
 ### Start here
 
 - [Project README](README.md) — value, trust model, usage levels, evidence, and limits.
-- [Quick use](docs/quick-use.md) — one-output template, Gate guide, completed example, and AI prompt.
+- [Quick use](docs/quick-use.md) — one-output template, Gate guide, illustrative walkthrough, and AI prompt.
 
 ### Templates / schemas
 
@@ -405,7 +417,7 @@ This does not prove OSI's empirical performance. It directly demonstrates the pr
 
 ### Examples
 
-- [Completed everyday example](docs/quick-use.md#completed-example).
+- [Illustrative everyday walkthrough](docs/quick-use.md#illustrative-evidence-walkthrough).
 
 ### Formal evaluation
 

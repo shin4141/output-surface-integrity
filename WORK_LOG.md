@@ -116,3 +116,13 @@
 - Old-path deletion: the ambiguous previous PNG path was removed after byte-for-byte identity verification.
 - Rollback point: `0cacb056cdabf6109a716246904bfbdcd97c378b`
 - Protected and unchanged surfaces: approved PNG bytes; `4×` hook; neutral-copy replacements; illustrative/not-measured boundary; one-minute CTA; `14,651 → 3,267`; `77.70%`; `192 / 192`; fixed internal eight-case evaluation; Social Preview identity; Formal Run terminal closure; Scientific Missing Closure; Shin's Decision Owner Seat.
+
+## As-of 2026-07-22 — OSI-A-LEVEL-BOUNDED-CORRECTION-01
+
+- Verified base HEAD: `0016f673cfd04032404305547738ffff68389792`
+- Branch: `fix/a-level-claim-and-gate-integrity`
+- Accepted audit result: `BLOCK` with four authorized A-level correction areas only.
+- Correction scope: calibrate claim strength to publicly inspectable evidence; prevent PASS from illustrative identifiers or absent authority; require receiver acceptance for completed responsibility transfer; align Formal Run terminal status with unresolved scientific and public-inspectability closure.
+- No-pivot boundary: acceleration-first restart compression remains primary; the one-minute entry, illustrative `4×` model, fixed internal `14,651 → 3,267` / `77.70%` / `192 / 192` result, and character-versus-token boundary remain prominent.
+- Forward-only boundary: historical entries were not rewritten; the Formal Run remains `BLOCK — TERMINALLY CLOSED`; no Gold, Mapping, corpus, receipt, authority record, preimage, or custody artifact was reconstructed.
+- Excluded scope: no B/C cleanup, feature work, architecture, metric, schema beyond minimum receiver-acceptance fields, product repositioning, image edit, benchmark execution, validator, CI, corpus, API, package, release, tag, or external amplification.

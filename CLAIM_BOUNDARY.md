@@ -1,6 +1,12 @@
 # Claim Boundary
 
-## Current As-of Evidence State — 2026-07-19
+## Current As-of Evidence State — 2026-07-22
+
+### Public inspectability boundary
+
+In one fixed internal eight-case evaluation, recorded restart material was reduced from `14,651` to `3,267` characters — a `77.70%` character reduction — with recorded scoring of `192 / 192` registered restart items. The complete public reproduction package is not currently included in this repository: the public corpus, manifest, scoring rows, processor, registry, and counting rules required for independent reproduction are absent.
+
+The arithmetic and recorded internal result may be reported within that scope. They must not be described as independently reproducible, directly verified from this repository, or fully supported by public artifacts.
 
 ### Historical native-domain pressure evidence
 
@@ -45,7 +51,7 @@ The public repository is a clean allowlisted projection. The private source and 
 
 Publication status alone does not prove adoption, demand, external validation, market fit, productivity gain, real-world robustness, or scientific Claim confirmation.
 
-## Verified Bootstrap Claims
+## Recorded Bootstrap Claims
 
 The workspace may state only that:
 
@@ -54,7 +60,7 @@ The workspace may state only that:
 - the V13 operational repository was clean and synchronized at the recorded bootstrap HEAD;
 - the report workspace contains structure and authority records, not a report body.
 
-## Verified Post-Bootstrap Candidate Corpus Claims
+## Recorded Post-Bootstrap Candidate Corpus Claims
 
 For the fixed Candidate 1–8 Full Completion Report corpus and recorded v0.6 run only, the workspace may state that authoritative sources record:
 
@@ -64,9 +70,11 @@ For the fixed Candidate 1–8 Full Completion Report corpus and recorded v0.6 ru
 - Critical Failures of `0 / 8`;
 - reconstruction of the scored operational fields and recorded case-specific semantic anchors.
 
+Those source records are not a complete public reproduction package. The result is a bounded recorded internal finding, not an independently reproducible public benchmark.
+
 The characterization `real, low-to-medium complexity` is `PENDING HANDOFF ASSERTION — NOT CANONICALLY VERIFIED` because that wording was not located in the authoritative artifacts.
 
-## Verified Synthetic Artifact Claims
+## Recorded Synthetic Packet-Build Claims
 
 `SYNTHETIC ADVERSARIAL TEST DATA / NOT REAL-WORLD EVIDENCE`
 
