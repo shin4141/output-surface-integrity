@@ -62,3 +62,15 @@
 - Protected objects: `14,651 → 3,267`; `77.70%`; `192 / 192`; fixed internal eight-case scope; character versus token boundary; existing image identity; Formal Run terminal closure; current public chronology; Shin's Decision Owner Seat.
 - Rollback point: `215c2c15f3f545a8735644086ab6d825d1ea257b`
 - Unmodified surfaces: no image, Social Preview, About, topics, external post, tag, release, private evidence, Formal Run, API, Skill, or runtime surface was modified.
+
+## As-of 2026-07-21T15:23:14+0900 — OSI-OPERATING-GAP-ASSET-PUBLISH-01
+
+- Verified base HEAD: `39de07fe0c81b4718fb7c56febad23e233cf3d08`
+- Branch: `add/operating-gap-illustration`
+- Changed files: `assets/marketing/osi-4x-operating-gap.png`, `docs/operating-gap.md`, `WORK_LOG.md`
+- Image dimensions: `1672 × 941`
+- Image SHA-256: `38753b071dd54b3ae8cb398e0ce728e6723cf46d6be2adfbc6282babc4343ba5`
+- Purpose: acceleration-first conceptual illustration with explicit claim boundary.
+- Rollback point: `39de07fe0c81b4718fb7c56febad23e233cf3d08`
+- Protected objects: `14,651 → 3,267` characters; `77.70%` character reduction; `192 / 192` registered restart items retained in scoring; fixed internal eight-case scope; character-versus-token boundary; no general productivity, time-saving, external-equivalence, market-demand, or independent-proof claim; existing README top and one-minute path; Social Preview identity and SHA-256; Formal Run terminal closure; Scientific Missing Closure; Shin's Decision Owner Seat.
+- Unchanged surfaces: README, Social Preview, About, topics, Formal Run and scientific evidence, releases, tags, external posts, API, Skill, automation, runtime surfaces, and private repository.
