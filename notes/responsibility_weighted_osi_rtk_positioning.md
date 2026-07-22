@@ -69,13 +69,13 @@ RTK may be sufficient only when all of the following are true:
 | Reversible local exploration with retained Raw | RTK may be sufficient | Raw remains available and an omission does not transfer authority or change a Gate. |
 | Multi-agent or multi-session handoff | OSI | Responsibility-bearing state must remain reconstructable and transferable across context boundaries. |
 
-## Supported evidence from current work
+## Recorded evidence from current work
 
-- Operational corpus: `77.70%` reduction with complete rubric reconstruction.
-- Synthetic adversarial corpus: `56.44%` reduction with complete rubric reconstruction.
-- The higher-complexity corpus retained more information while preserving all tested judgment-critical fields.
+- Candidate corpus: recorded `77.70%` character reduction with recorded scoring of `192 / 192` registered restart items across a fixed internal eight-case evaluation.
+- Synthetic adversarial packet build: recorded `56.44%` character reduction; completed cold-start reconstruction and scoring remain pending rather than established.
+- The complete public reproduction packages for these internal records are not included in this repository.
 
-This is consistent with responsibility-sensitive information retention. It does not establish universal superiority over RTK, lower total cost than RTK, an identical-workload benchmark victory, product readiness, independent third-party validation, or general proof across all workflows.
+The candidate result is consistent with responsibility-sensitive information retention within its recorded scope. It does not establish universal superiority over RTK, lower total cost than RTK, an identical-workload benchmark victory, product readiness, independent third-party validation, public reproducibility, or general proof across all workflows.
 
 ## Comparative hypothesis
 

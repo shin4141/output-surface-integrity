@@ -15,6 +15,8 @@ The scenario assumes:
 
 The measured OSI result is narrower: `14,651 → 3,267` characters, a `77.70%` character reduction, with `192 / 192` registered restart items retained in scoring across a fixed internal eight-case evaluation.
 
+The complete public reproduction package for this internal evaluation is not currently included in the repository.
+
 That measured result is **not** a general token-reduction, time-saving, productivity, external-equivalence, or market-demand claim.
 
 ## Core idea

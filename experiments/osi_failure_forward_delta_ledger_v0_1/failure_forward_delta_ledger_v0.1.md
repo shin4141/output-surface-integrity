@@ -267,6 +267,20 @@ All future Formal Runs must BLOCK before Runtime authorization unless the full r
 - Forward-only prevention delta: `a29d08fcb4ab35d72ba3e5e1be06442d42c9699e6cd0043df4c38ba2159ded12`
 - Terminal manifest: `298da5bbd2f9e5031a5eedfc1a6e69049e76aba0da2510b2fcd121407ed622fd`
 
+### Forward-Only Public-Inspectability Clarification — 2026-07-22
+
+The historical `Operational Missing Closure: NONE` means that no further operational action is authorized inside this terminally closed run. It does not mean scientific or public-evidence closure.
+
+The public repository records the execution counts, role labels, artifact labels, and hashes above, but it does not contain all retrievable hash preimages, custody and retrieval artifacts, manifests, source bindings, visible-role/internal-identity/artifact mappings, closure evidence for the earlier blinding or authorization HOLD, or an independent reveal-retrievability preflight. Therefore:
+
+- reported Runtime, Witness, PE, and Ledger states remain historical records, not independently reproducible public facts;
+- Gold source binding remains unresolved;
+- Mapping source binding remains unresolved;
+- scientific closure remains unresolved; and
+- the Formal Run gate remains `BLOCK — TERMINALLY CLOSED`.
+
+This clarification does not alter any historical entry, reconstruct Gold or Mapping, validate a missing preimage, or authorize retrospective repair.
+
 > FR-v0.2.1-01 did not complete the planned end-to-end blind comparison.
 >
 > It did demonstrate why Completion Integrity must include the final evidence joint—not only execution, observation, or commitment creation.

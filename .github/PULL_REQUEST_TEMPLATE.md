@@ -16,7 +16,13 @@
 
 ## Next safe action
 
-## Next owner
+## Proposed next owner
+
+## Receiver acceptance if responsibility transfer is claimed
+
+- Status: `ACCEPTED` / `DECLINED` / `NOT RECORDED` / `NOT APPLICABLE`
+- Acknowledgement evidence:
+- Timestamp:
 
 ## Checklist
 
@@ -29,6 +35,7 @@
 - [ ] No secrets, private paths, internal IDs, Gold, Mapping, or PE semantic content are included.
 - [ ] Rollback or restart point is stated.
 - [ ] Unresolved items are stated.
-- [ ] Next safe action and owner are stated.
+- [ ] Next safe action and proposed next owner are stated.
+- [ ] If responsibility transfer is claimed, receiver acceptance, acknowledgement evidence, and timestamp are stated.
 - [ ] README / docs links were checked.
 - [ ] Formal Run state remains unchanged unless the PR explicitly has authority and evidence to update public chronology.
