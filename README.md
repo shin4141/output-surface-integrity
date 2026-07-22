@@ -8,6 +8,16 @@ Output Surface Integrity is a restart-oriented compression method for long-runni
 
 [![Illustrative chart showing how the same model and usage limit can produce a widening operating gap when recovery overhead and restart efficiency differ](assets/marketing/osi-4x-operating-gap-neutral-v2.png)](docs/operating-gap.md)
 
+## Check Whether Your AI Operation Is Ready to Scale
+
+Your current workflow may already be strong.
+
+Before changing anything, ask your own AI whether adding more projects, agents, handoffs, collaborators, and model changes is likely to amplify useful structure, amplify recovery cost, or remain unknown from the available history.
+
+**[Run the Scale Readiness check →](docs/scale-readiness.md)**
+
+You do not need to understand OSI first. Use an AI session that already has access to your real work history. If the available history does not support a direction, the result should remain `UNKNOWN`.
+
 **[Run the one-minute restart check →](docs/quick-use.md#one-minute-check)**
 
 ## See the Restart Difference
