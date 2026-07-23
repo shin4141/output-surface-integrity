@@ -4,68 +4,29 @@
 [![status: public prototype](https://img.shields.io/badge/status-public%20prototype-blue.svg)](README.md)
 [![1-minute restart check](https://img.shields.io/badge/quickstart-1%20minute-brightgreen.svg)](docs/quick-use.md#one-minute-check)
 
-**When an AI says “done,” can the next chat continue?**
+**AI said “done.” Can the next chat actually continue?**
 
-Output Surface Integrity checks one AI completion report and turns only the
-available, inspectable state into a compact restart note: what changed, what
-remains unresolved, where work should restart, and what happens next.
-
-Anything that cannot be supported remains `UNKNOWN` or `MISSING`.
-
-## Try It on the Output You Just Received — One Minute
-
-In the AI session that produced the completion message, paste:
+Paste this into the same AI session:
 
 ```text
-Turn the completion message above into an OSI Restart Note.
+Create an OSI Restart Note for the work above.
 
-Do not treat your previous completion statement as evidence.
+Use only inspectable evidence.
+Do not treat your own completion claim as proof.
+Write MISSING or UNKNOWN when evidence is unavailable.
 
-Use only inspectable conversation state, files, diffs, commands, outputs,
-results, or stable references that are actually available.
-
-If a field cannot be supported, write UNKNOWN or MISSING.
-
-Record:
-
-- Claimed done
+Return only:
 - What changed
-- What remains unresolved or UNKNOWN
-- Restart from
-- Next action
-- Proposed next owner
-- Receiver acceptance if responsibility transfer is claimed:
-  status / acknowledgement / timestamp
+- What is still unresolved
+- Where to restart
+- Next action and proposed owner
 ```
 
-## Before / After
+Paste the result into the next chat.
 
-**Before**
+This creates a restart note. It does not prove that the work occurred.
 
-> Done. The repository was updated and tests passed.
-
-**After**
-
-- Claimed done: Repository updated; tests passed
-- What changed: `UNKNOWN`
-- What remains unresolved: exact changed paths and the actual test command and result
-- Restart from: before accepting or merging the claimed change
-- Next action: obtain and inspect the diff and the actual test result
-- Proposed next owner: receiving maintainer
-- Receiver acceptance: `NOT APPLICABLE` — no completed responsibility transfer is claimed
-
-**Next chat**
-
-> Read this Restart Note first. Continue only from the recorded restart point
-> and only within the evidence actually preserved. Do not assume missing
-> evidence exists. If Missing Closure prevents continuation, preserve `DELAY`.
-
-This creates a restart surface. It does not independently verify that the
-claimed work occurred or completed.
-
-[Full five-minute check](docs/quick-use.md#full-five-minute-workflow)
-· [Measured result and boundaries](#see-the-restart-difference)
-· [Scale Readiness check](docs/scale-readiness.md)
+**[Full completion and handoff check →](docs/quick-use.md)**
 
 ## See the Restart Difference
 
