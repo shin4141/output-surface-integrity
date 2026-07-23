@@ -4,6 +4,17 @@
 
 `INTERNAL POSITIONING HYPOTHESIS — NOT A BENCHMARK RESULT`
 
+> **Historical internal hypothesis — superseded for public positioning.**
+>
+> This note is preserved as an As-of internal hypothesis.
+>
+> It must not be used as evidence of OSI superiority, RTK inferiority, equivalent functionality, or an established default-selection rule.
+>
+> The current bounded public positioning is:
+> [Where RTK Succeeded and OSI Failed](../docs/rtk-lineage-forward-only.md)
+>
+> The earlier hypothesis remains inspectable and has not been retrospectively rewritten.
+
 ## Core question
 
 Do not ask only:
