@@ -52,7 +52,7 @@ Record:
 - Restart from: before accepting or merging the claimed change
 - Next action: obtain and inspect the diff and the actual test result
 - Proposed next owner: receiving maintainer
-- Receiver acceptance: `NOT RECORDED`
+- Receiver acceptance: `NOT APPLICABLE` — no completed responsibility transfer is claimed
 
 **Next chat**
 
