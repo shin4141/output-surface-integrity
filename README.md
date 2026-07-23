@@ -323,6 +323,14 @@ Level 4 has materially higher setup and custody cost. Reveal artifacts, manifest
 
 **Most users should begin at Level 1.** The Formal Run is evidence and an advanced reference, not the entry cost for using OSI.
 
+## Where RTK Succeeded and OSI Failed
+
+In an earlier fixed native-domain comparison, RTK produced the correct registered bounded state at Execution Stage 2 in `8 / 8` cases, while OSI’s first Responsibility-stage design produced it in `1 / 8`, with `14` critical failure events across `7` cases.
+
+The lanes used different native artifacts and rubrics, so this is not a superiority result. OSI preserves the adverse result and records the later V11 + V12 correction only as a Forward-only architectural update.
+
+**[Read the bounded RTK → OSI lineage and correction record →](docs/rtk-lineage-forward-only.md)**
+
 ## RTK and OSI: Use the Level the Work Requires
 
 OSI overlaps with restart and context-transfer approaches such as RTK in the broad problem it addresses. OSI’s bounded contribution here is narrower: it evaluates whether a compact operational surface can preserve preregistered restart-relevant items across fixed internal cases. This repository does not claim superiority over RTK or equivalent performance outside the registered evaluation.
