@@ -4,21 +4,68 @@
 [![status: public prototype](https://img.shields.io/badge/status-public%20prototype-blue.svg)](README.md)
 [![1-minute restart check](https://img.shields.io/badge/quickstart-1%20minute-brightgreen.svg)](docs/quick-use.md#one-minute-check)
 
-Output Surface Integrity is a restart-oriented compression method for long-running human–AI work. It reduces the amount of prior material a receiving person or AI must reread by preserving only the operational state required to continue.
+**When an AI says “done,” can the next chat continue?**
 
-[![Illustrative chart showing how the same model and usage limit can produce a widening operating gap when recovery overhead and restart efficiency differ](assets/marketing/osi-4x-operating-gap-neutral-v2.png)](docs/operating-gap.md)
+Output Surface Integrity checks one AI completion report and turns only the
+available, inspectable state into a compact restart note: what changed, what
+remains unresolved, where work should restart, and what happens next.
 
-## Check Whether Your AI Operation Is Ready to Scale
+Anything that cannot be supported remains `UNKNOWN` or `MISSING`.
 
-Your current workflow may already be strong.
+## Try It on the Output You Just Received — One Minute
 
-Before changing anything, ask your own AI whether adding more projects, agents, handoffs, collaborators, and model changes is likely to amplify useful structure, amplify recovery cost, or remain unknown from the available history.
+In the AI session that produced the completion message, paste:
 
-**[Run the Scale Readiness check →](docs/scale-readiness.md)**
+```text
+Turn the completion message above into an OSI Restart Note.
 
-You do not need to understand OSI first. Use an AI session that already has access to your real work history. If the available history does not support a direction, the result should remain `UNKNOWN`.
+Do not treat your previous completion statement as evidence.
 
-**[Run the one-minute restart check →](docs/quick-use.md#one-minute-check)**
+Use only inspectable conversation state, files, diffs, commands, outputs,
+results, or stable references that are actually available.
+
+If a field cannot be supported, write UNKNOWN or MISSING.
+
+Record:
+
+- Claimed done
+- What changed
+- What remains unresolved or UNKNOWN
+- Restart from
+- Next action
+- Proposed next owner
+- Receiver acceptance if responsibility transfer is claimed:
+  status / acknowledgement / timestamp
+```
+
+## Before / After
+
+**Before**
+
+> Done. The repository was updated and tests passed.
+
+**After**
+
+- Claimed done: Repository updated; tests passed
+- What changed: `UNKNOWN`
+- What remains unresolved: exact changed paths and the actual test command and result
+- Restart from: before accepting or merging the claimed change
+- Next action: obtain and inspect the diff and the actual test result
+- Proposed next owner: receiving maintainer
+- Receiver acceptance: `NOT APPLICABLE` — no completed responsibility transfer is claimed
+
+**Next chat**
+
+> Read this Restart Note first. Continue only from the recorded restart point
+> and only within the evidence actually preserved. Do not assume missing
+> evidence exists. If Missing Closure prevents continuation, preserve `DELAY`.
+
+This creates a restart surface. It does not independently verify that the
+claimed work occurred or completed.
+
+[Full five-minute check](docs/quick-use.md#full-five-minute-workflow)
+· [Measured result and boundaries](#see-the-restart-difference)
+· [Scale Readiness check](docs/scale-readiness.md)
 
 ## See the Restart Difference
 
@@ -45,6 +92,20 @@ The compact restart surface preserves the answers needed for bounded continuatio
 A new human or AI can continue from the bounded operational state instead of reconstructing the entire project history.
 
 If responsibility transfer is claimed, naming a proposed owner is not enough: the receiver's acceptance, acknowledgement evidence, and timestamp must also be recorded.
+
+[![Illustrative chart showing how the same model and usage limit can produce a widening operating gap when recovery overhead and restart efficiency differ](assets/marketing/osi-4x-operating-gap-neutral-v2.png)](docs/operating-gap.md)
+
+## Check Whether Your AI Operation Is Ready to Scale
+
+Your current workflow may already be strong.
+
+Before changing anything, ask your own AI whether adding more projects, agents, handoffs, collaborators, and model changes is likely to amplify useful structure, amplify recovery cost, or remain unknown from the available history.
+
+**[Run the Scale Readiness check →](docs/scale-readiness.md)**
+
+You do not need to understand OSI first. Use an AI session that already has access to your real work history. If the available history does not support a direction, the result should remain `UNKNOWN`.
+
+**[Run the one-minute restart check →](docs/quick-use.md#one-minute-check)**
 
 ## One Output Before and After OSI
 
