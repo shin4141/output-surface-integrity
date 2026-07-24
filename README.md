@@ -28,6 +28,55 @@ This creates a restart note. It does not prove that the work occurred.
 
 **[Full completion and handoff check →](docs/quick-use.md)**
 
+**AI says “done,” but you still have to reconstruct what changed, what is missing, and where to continue.**
+
+If every new chat makes you re-explain the same work, you are paying the recovery cost again.
+
+Save this prompt for every consequential AI “done” report. Share the Restart Note whenever a new chat, agent, or teammate has to continue without guessing.
+
+## Why This Matters
+
+Long-running human–AI work often creates the same restart costs repeatedly:
+
+- A new AI needs the same project explanation again.
+- The agent says “done,” but you still have to verify and clean up.
+- The reason behind an earlier decision disappears with the previous chat.
+- A handoff transfers information but creates more work.
+- Nobody can tell what was actually checked, what remains unresolved, or where to restart.
+- Adding more agents makes you carry more project state, not less.
+
+<details>
+<summary><strong>Measured result, scale readiness, and advanced layers</strong></summary>
+
+## This Is Not Only Context Loss
+
+The previous AI may have produced an output without leaving a completion state that the next human or AI can safely accept, verify, roll back, and continue.
+
+That is **False Completion**: the work looks finished locally while missing evidence, unresolved state, and ownership are transferred downstream.
+
+## What OSI Does
+
+OSI compacts the continuation surface: the bounded outcome, evidence required for the next judgment, unresolved state, authority, rollback or restart point, and next owner.
+
+It is designed to reduce repeated explanation and recovery without discarding the state needed to restart safely. It is not designed to make every isolated turn shorter, and the fixed internal result documented in the advanced section below is not a universal performance estimate.
+
+When the required state is preserved, OSI prevents repeated reconstruction by shifting work from repeated recovery to bounded one-time recording. This is an operating mechanism, not an experimentally measured saving.
+
+## Cost Now / Cost Later
+
+| Without OSI | With OSI |
+| --- | --- |
+| AI says “done” | Exact output is frozen |
+| Evidence is incomplete | Evidence and procedure are recorded |
+| The next session reconstructs state | Restart state is inherited |
+| Verification is repeated | Prior verification remains inspectable |
+| Ownership is unclear | The next action and proposed owner are visible |
+| Mistakes create repair work | Missing Closure blocks unsafe continuation |
+
+OSI pays a bounded integrity cost once. Missing completion state may otherwise be paid for repeatedly by every later human, model, session, or agent.
+
+This is an operating mechanism, not a published percentage effect.
+
 ## See the Restart Difference
 
 ```text
@@ -111,45 +160,7 @@ OSI's supporting layers follow this order:
 
 V11, V12, and V13 support the restart-oriented compression method. They do not make restart automatic or establish universal reliability.
 
-## Why This Matters
-
-Long-running human–AI work often creates the same restart costs repeatedly:
-
-- A new AI needs the same project explanation again.
-- The agent says “done,” but you still have to verify and clean up.
-- The reason behind an earlier decision disappears with the previous chat.
-- A handoff transfers information but creates more work.
-- Nobody can tell what was actually checked, what remains unresolved, or where to restart.
-- Adding more agents makes you carry more project state, not less.
-
-## This Is Not Only Context Loss
-
-The previous AI may have produced an output without leaving a completion state that the next human or AI can safely accept, verify, roll back, and continue.
-
-That is **False Completion**: the work looks finished locally while missing evidence, unresolved state, and ownership are transferred downstream.
-
-## What OSI Does
-
-OSI compacts the continuation surface: the bounded outcome, evidence required for the next judgment, unresolved state, authority, rollback or restart point, and next owner.
-
-It is designed to reduce repeated explanation and recovery without discarding the state needed to restart safely. It is not designed to make every isolated turn shorter, and the fixed internal result above is not a universal performance estimate.
-
-When the required state is preserved, OSI prevents repeated reconstruction by shifting work from repeated recovery to bounded one-time recording. This is an operating mechanism, not an experimentally measured saving.
-
-## Cost Now / Cost Later
-
-| Without OSI | With OSI |
-| --- | --- |
-| AI says “done” | Exact output is frozen |
-| Evidence is incomplete | Evidence and procedure are recorded |
-| The next session reconstructs state | Restart state is inherited |
-| Verification is repeated | Prior verification remains inspectable |
-| Ownership is unclear | The proposed next owner and any required receiver acceptance are visible |
-| Mistakes create repair work | Missing Closure blocks unsafe continuation |
-
-OSI pays a bounded integrity cost once. Missing completion state may otherwise be paid for repeatedly by every later human, model, session, or agent.
-
-This is an operating mechanism, not a published percentage effect.
+</details>
 
 ## One Ordinary Example
 
